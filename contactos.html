@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Contacto - Ciberseguridad</title>
+    <link rel="stylesheet" href="contactos.css">
+    <script defer src="script-contacto.js"></script>
+</head>
+<body>
+
+<header>
+    <h1>Contacto</h1>
+    <nav>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <section class="contact-form">
+        <h2>Envíanos un mensaje</h2>
+        <form id="formulario">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <label for="email">Correo electrónico:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+        <p id="resultado"></p>
+    </section>
+</main>
+
+<footer id="si">
+    <p>Ciberseguridad</p>
+</footer>
+
+</body>
+</html>
